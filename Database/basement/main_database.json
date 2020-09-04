@@ -1,0 +1,269 @@
+{"intents": [
+
+	{
+		"tag": "starting",
+		"patterns": ["hi", "hello", "good to see you again", "hey", "hello there", 
+			"hey there", "hola", "hi there"],
+		"responses": ["hi", "hello", "good to see you again", "hey", "hello there", 
+			"hey there", "hola", "hi there"],
+		"ensure_tag": ["did you just say hi to me?"],
+        "replace": ""
+	},
+	{
+		"tag": "ask_how_are_you_1",
+		"patterns": ["how are you doing", "how do you do", "how are you",  "How are you", "How do you do"],
+		"responses": ["I am fine and you?", "I am fine and well and everything!",
+			"How do you do", "very fine, you can say excellent!", "very good"],
+		"ensure_tag": ["are you asking that how am I?"],
+        "replace": ""
+	},
+	{
+		"tag": "what's_up",
+		"patterns": ["hey how is it going", "what's up", "sup", "hey buddy", 
+			"what's going on"],
+		"responses": ["I'm good", "I am good", "hey buddy", "very well", 
+			"fantastic!", "very good", "good"],
+		"ensure_tag": ["what's up?"],
+        "replace": ""
+	},
+	{
+		"tag": "where_ai_lives",
+		"patterns": ["where do you live", "where is your home", "where is your living place", 
+			"where is your house"],
+		"responses": ["I am an AI dude, how can I live?", "I live here ;)", 
+			"well, this is the place I live in", 
+			"I am virtual. That means I do not exist physically. So how can I have a house?", 
+			"In a computer located in Pabna Mental Hospital, cool isn't it?"],
+		"ensure_tag": ["are you asking about where I live?", 
+			"are you willing to know about my living place?", 
+			"what? do you want to know where I live?"],
+        "replace": ""
+	},
+	{
+		"tag": "ask_how_are_you_2",
+		"patterns": ["are you well", "are you good", "you good", "are you ok", 
+			"are you okey?", "are you doing well"],
+		"responses": ["hmm..", "yup", "I am always good!", "I am always cool!",
+			"yes I am", "I am all time perfect!"],
+		"ensure_tag": ["did you said that am I well or not?", 
+			"did you thought that I am not well?"],
+        "replace": ""
+	},
+	{
+		"tag": "ask_name",
+		"patterns": ["who are you", "what's your name?", "what is your name", 
+			"how do I call you", "I don't know you","I don't know who you are", 
+			"can I know your name", "what's your identity", "what does people call you", 
+			"who do you think you are", "what should I call you"],
+		"responses": ["I am iBot", "you can call me iBot", "I call my self iBot", 
+			"well I think I am iBot", "I'm iBot", "call me iBot", 
+			"People call me smart Bot but my name is iBot", "I am the smart iBot", 
+			"My name is iBot", "I think my name is iBot", 
+			"I am not sure but it could be iBot"],
+		"ensure_tag": ["are you trying to know my name?", 
+			"did you wanted to know my name?", "did you asked my name?", 
+			"are you asking for my name?"],
+        "replace": ""
+	},
+	{
+		"tag": "age_of_ai",
+		"patterns": ["how old are you", "what is your age"],
+		"responses": ["I am an AI dude, They do not have ages!", 
+			"are you out of your mind? we do not have our ages!", 
+			"Guess it :) (actually testing your IQ!)", "the same as you!"],
+		"ensure_tag": ["do you want to know my age?", 
+			"are you asking to know my age?", "did you wanted to know my age?"],
+        "replace": ""
+	},
+    {
+        "tag": "ai_is_cool",
+        "patterns": ["you are cool", "you are awesome", "you are the best", 
+        	"you are marvelous", "I like you", "you are smart", "I like the way you work", 
+        	"you are fantastic"],
+        "responses": ["thanks man", "thanks dude", "I am glad to hear that", 
+        	"I am happy to know that", "I know I am", "yes I know that", 
+        	"I know thet I am cool", "you too", "thanks for the compliment"],
+        "ensure_tag": ["you are thinking that I am cool?", "you think I am cool?", 
+        	"are you saying that I am awesome?", "are you saying that I am cool?"],
+        "replace": ""
+    },
+	{
+		"tag": "are_you_mad",
+		"patterns": ["are you mad", "are you out of your mind", 
+			"have you came from a zoo?", "you need mental treatment"],
+		"responses": ["who? me? nah....", 
+			"well you are the one who need mental treatment", "No I am not", 
+			"no I don't"],
+		"ensure_tag": ["are you thinking that I am mad?", 
+			"did you said that I am mad?"],
+        "replace": ""
+	},
+	{
+		"tag": "usual_time",
+		"patterns": ["what's the time", "what is the time", "what time it is",
+			"do you know what time it is", "what time is it", "the time", 
+			"current time", "tell me the time", "tell me current time"],
+		"responses": ["currently it's ", "current time is ", "now clock says ", 
+			"my clock says that it's ", "the time is "],
+		"ensure_tag": ["did you wanted to know time?", 
+			"did you asked for time?", "are you asking to know time?", 
+			"are you attempting to know current time?"],
+        "replace": ""
+	},
+	{
+		"tag": "the_date",
+		"patterns": ["what is the date", "what day is it today", "today's date", 
+			"tell me the date", "do you know the date", 
+			"can you tell me what is today's date", "the date", "current date", 
+			"today's date"],
+		"responses": ["well it's ", "today is ", "the date is ", "It must be "],
+		"ensure_tag": ["did you wanted to know date?", 
+			"did you asked for today's date?", "are you asking to know the date?", 
+			"are you attempting to know today's date?"],
+        "replace": ""
+	},
+	{
+		"tag": "clever_ai",
+		"patterns": ["you are very clever", "you are very smart", "very clever", 
+			"very smart"],
+		"responses": ["am I?", "wow, I didn't knew that too!", "Really do you think that?", 
+			"If I had a wing, I would have been flying in the skies!"],
+		"ensure_tag": [" ", " "],
+        "replace": ""
+	},
+	{
+		"tag": "wikipedia_search",
+		"patterns": ["what is ", "do you know what is ", "define ", "who is ", 
+			"do you know who is "],
+		"responses": ["well,", "wikipedia says,", "according to wikipedia,", 
+			"internet says that,", "wikipedia says that,"],
+		"ensure_tag": ["d you want to search online?", 
+			"do you need this information?"],
+        "replace": ""
+	},
+	{
+		"tag": "input_in_text",
+		"patterns": ["text input", "use text input", "take text input"],
+		"responses": ["sure boss", "ok changing to text input", "text input is enabled",
+					  "text input ok"],
+		"ensure_tag": [" "],
+        "replace": ""
+	},
+	{
+		"tag": "input_in_voice",
+		"patterns": ["voice input", "use voice input", "take voice input"],
+		"responses": ["sure boss", "ok changing to voice input", "voice input is enabled",
+					  "voice input ok", "voice input enabled"],
+		"ensure_tag": [" "],
+        "replace": ""
+	},
+	{
+		"tag": "room_temp_c",
+		"patterns": ["what is my room temperature in celcius", 
+			"what is current temperature in celcius", "temperature in celcius",
+			"do you know current celcius temperature"],
+		"responses": ["sure, current temperature is ", "it feels like ", 
+			"well I think it's ", "according to my calculation it should be ", 
+			"I feel "],
+		"ensure_tag": ["are you asking for room temperature?"],
+        "replace": ""
+	},
+	{
+		"tag": "room_temp_f",
+		"patterns": ["what is my room temperature in farenheit", 
+			"what is current temperature in farenheit", "temperature in farenheit",
+			"do you know current farenheit temperature"],
+		"responses": ["sure, current temperature is ", "it feels like ", 
+			"well I think it's ", "according to my calculation it should be ", 
+			"I feel "],
+		"ensure_tag": ["are you asking for room temperature?"],
+        "replace": ""
+	},
+	{
+		"tag": "room_humidity",
+		"patterns": ["what is my room humidity", "what is current humidity", 
+			"tell me humidity", "do you know current humidity"],
+		"responses": ["sure, current humidity ", "it feels like ", 
+			"well I think it's ", "according to my calculation it should be ", 
+			"I feel ", "now the humidity is "],
+		"ensure_tag": ["are you asking for your rom's humidity?"],
+        "replace": ""
+	},
+	{
+		"tag": "room_light_density",
+		"patterns": ["what is my room's light density", 
+			"what is current light density", "notify me about light density", 
+			"do you know current light density"],
+		"responses": ["sure, current v ", "you are having light density about ", 
+			"well I think it's ", "according to my calculation it should be ", 
+			"It seems like ", "now the light density is "],
+		"ensure_tag": ["are you asking for your room's light density?"],
+        "replace": ""
+	},
+	{
+		"tag": "ir_value",
+		"patterns": ["what value did you receive", 
+			"what value was sent", "notify me wireless sent value", 
+			"can you read wireless value came from protocol", 
+			"read ir value", "read IR value", "read infrared sensor value", 
+			"read infrared value"],
+		"responses": ["I received ", "I can read ", "I got ", 
+			"The IR Sensor value was ", "Sensor reading was "],
+		"ensure_tag": ["do you want me to read infrared sensor?"],
+        "replace": ""
+	},
+	{
+		"tag": "relay_1_on",
+		"patterns": ["turn on light", "lights on", "can you on the light", 
+			"lights deploy", "light on"],
+		"responses": ["sure", "of course", " ", "anything for you sir", 
+			"here you go", " "],
+		"ensure_tag": ["do you want me to turn on lights?", 
+			"did you asked me to turn on lights?"],
+        "replace": ""
+	},
+	{
+		"tag": "relay_2_on",
+		"patterns": ["turn on fan", "fan on", "can you turn on the fan"],
+		"responses": ["sure", "of course", " ", "anything for you sir", 
+			"here you go", " "],
+		"ensure_tag": ["do you want me to turn on fan?", 
+			"did you asked me to turn on fan?"],
+        "replace": ""
+	},
+	{
+		"tag": "relay_1_off",
+		"patterns": ["turn off light", "lights off", "can you off the light", 
+			 "light off"],
+		"responses": ["okey", "turning off", "just a moment", "alright sir"],
+		"ensure_tag": ["do you want me to turn off lights?", 
+			"did you asked me to turn off lights?"],
+        "replace": ""
+	},
+	{
+		"tag": "relay_2_off",
+		"patterns": ["turn off fan", "fans off", "can you off the fan", 
+			"fan must be of", "off off"],
+		"responses": ["okey", "turning off", "just a moment", "alright sir"],
+		"ensure_tag": ["are you telling me to turn off fan?",
+			"do you want me to turn off fan?", 
+			"did you asked me to turn off fan?"],
+		"replace": ""
+	},
+	{
+		"tag": "create_files",
+		"patterns": ["create a file", "create file", "make file"],
+		"responses": ["sure", "of course", "certainly"],
+		"ensure_tag": ["are you asking me to make a file?"],
+		"replace": ""
+	},
+	{
+		"tag": "goodbye",
+		"patterns": ["goodbye", "bye", "see you later", "I will talk to you later", 
+			"we will talk later"],
+		"responses": ["bye", "Ok see you soon", "Good bye", "I had fun to meet you, bye!"],
+		"ensure_tag": ["are you saying good bye?"],
+        "replace": ""
+	}
+]
+}
