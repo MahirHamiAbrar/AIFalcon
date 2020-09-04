@@ -1,0 +1,10 @@
+{
+    "input-settings": {
+        "std-input": "TEXT",
+        "cur-input": "TEXT"
+    },
+    "output-settings": {
+        "std-output": "VOICE",
+        "cur-output": "VOICE"
+    }
+}
